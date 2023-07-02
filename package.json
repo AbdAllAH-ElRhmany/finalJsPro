@@ -1,0 +1,23 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "default":"index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Abdallah Elrhmany",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.9.2",
+    "sass": "^1.63.4"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "core-js": "^3.31.0",
+    "fractional": "^1.0.0",
+    "process": "^0.11.10",
+    "regenerator-runtime": "^0.13.11"
+  },
+  "description": ""
+}
